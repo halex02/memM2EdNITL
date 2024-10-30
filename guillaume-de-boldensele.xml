@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	  <fileDesc>
+	    <titleStmt>
+	      <title>Title</title>
+	    </titleStmt>
+	    <publicationStmt>
+	      <p>Publication Information</p>
+	    </publicationStmt>
+	    <sourceDesc>
+	      <p>Information about the source</p>
+	      </sourceDesc>
+	  </fileDesc>
+	</teiHeader>	
+	<text>
+	  <body>
+	    <div type="prologue">
+	      
+	    </div>
+	    <div>
+	      <head>
+		De itinere u&#x2184;ſus <placeName>Siriam</placeName> cui9 t&#x2184;ra ſancta eſt pars.
+	      </head>
+	      <p>
+		<lb/>Egressus ego de <placeName>Alema&#x0303;nia</placeName> t&#x2184;ra nati&#x0303;tatis mee
+		<lb/>et <placeName>Lu&#x0303;bardia&#x0303;</placeName> t<choice><abbr>ᵃ</abbr><expan>ra</expan></choice>nſiens ad litt9 <placeName>Medit&#x2184;ranei maris</placeName>
+		<lb/>&#xa753;pe ciuitate&#x0303; q&#x0303; <placeName>Naulu&#x0303;</placeName> di&#x0303;
+		in ripis ianne ſita&#x0303; &#xa753;ſpere q&#x2184;mu&#x0303; &#xa753;ueni et ubi galea&#x0303; 
+		<lb/>bn&#x0303; armata&#x0303; et ad o&#x0303;ia munita&#x0303; aſce&#x0303;di
+		et ad &#xa753;ſeq&#x0303;ndu&#x0303; iter ultramarinum
+		<lb/>naute remis uelo puppi i&#x0303;ſiſtebant.
+	      </p>
+	      <p>
+		Dicitur aut&#x0303; hoc <placeName>mare Medit&#x2184;raneu&#x0303;</placeName>
+		<lb/>q&#x2184;a p&#x2184;ncipalib9 mu&#x0303;di &#xa751;tib9 uidel⁊ <placeName>Aſie</placeName> <placeName>Europe</placeName> et <placeName>Affrice</placeName> int&#x2184;iacet ip&#x0303;as ſe ⁊
+		<lb/>ſuis braciis ab i&#x0303;uicem diſtininans h&#x0303;t eni&#x0303; a ſepte&#x0303;trione ⁊ occide&#x0303;te <placeName>Europa&#x0303;</placeName>
+		<lb/>ad oriente&#x0303; <placeName>Aſiam</placeName> et ad auſtra&#x0303; <placeName>Affrica&#x0303;</placeName> et uno <gap/> bracio qᵒ atti&#x0303;git <placeName>Hiſpa<lb/>nia&#x0303;</placeName>
+		et ſtrictu&#x0303; qd <gap/> de <placeName>Marroch</placeName> uulgarit&#x2184; uocat&#x2184; co&#x0303;tinuat&#x2184; hoc <placeName>mare me
+		<lb/>dit&#x2184;raneu&#x0303;</placeName> cu&#x0303; occeano maiori ſeu ci&#x0303;gulo terre ſcil⁊ maximo qd braciu&#x0303; ſa&#x0303;cti
+		<lb/>Georgii di&#x0303; co&#x0303;tinuat&#x2184; cu&#x0303; <placeName>mari Po&#x0303;tico</placeName> qd qᵃſi nulla&#x0303; h&#x0303;t i&#x0303;ſula&#x0303; 
+	      </p>
+	      <p>
+		In hoc gᵒ mari <persName>beat9 Clemens papa</persName> subm&#x2184;ſus fuit &#xa753;pe
+	      </p>
+	    </div>
+	  </body>
+	  </text>
+	</TEI>
+	
