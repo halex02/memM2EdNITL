@@ -1,0 +1,10 @@
+&#x0303; tilde
+
+&#xA750; p barré maj
+&#xA751; p barré min (per, por)
+
+&#xA752;
+&#xB753; p paraphe min (pro/prae)
+
+&#x2183;
+&#x2184; antisigma/c inversum min
