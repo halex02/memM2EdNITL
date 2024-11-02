@@ -94,4 +94,15 @@
 	<xsl:template match="placeName">
 		<xsl:apply-templates/>
 	</xsl:template>
+	<!-- 
+	%%%%%%%%%%%%%%%%%%%%%%%%
+	Traitement des lb et pb:
+	%%%%%%%%%%%%%%%%%%%%%%%% 
+	-->
+	<xsl:template match="lb"/><!-- les lb sont tout simplement ignorés pour la conversion en latex -->
+	<xsl:template match="pb"><!-- modifier ce template pour qu’il ajoute des tirets dans le cas ou la coupure se fait au milieu d’un mot -->
+	<xsl:text>[</xsl:text>
+	<xsl:value-of select="@xml:id"/>
+	<xsl:text>]</xsl:text>
+	</xsl:template>
 </xsl:stylesheet>

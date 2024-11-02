@@ -3,53 +3,53 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
-	  <fileDesc>
-	    <titleStmt>
-	      <title>Title</title>
-	    </titleStmt>
-	    <publicationStmt>
-	      <p>Publication Information</p>
-	    </publicationStmt>
-	    <sourceDesc>
-	      <p>Information about the source</p>
-	      </sourceDesc>
-	  </fileDesc>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
 	</teiHeader>
 	<text>
-	  <body>
-	    <div type="prologue">
-	      
-	    </div>
-	    <div type="corps-de-texte">
-	      <head>
-		De itinere u<choice><abbr>ↄ</abbr><expan>er</expan></choice>sus <placeName>Siriam</placeName> cui<choice><abbr>9</abbr><expan>us</expan></choice> t<choice><abbr>ↄ</abbr><expan>er</expan></choice>ra sancta est pars.
-	      </head>
-	      <p>
-		<lb/>Egressus ego de <placeName>Alem<choice><abbr>ã</abbr><expan>an</expan></choice>nia</placeName> t<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>ra nat<choice><abbr>ĩ</abbr><expan>iui</expan></choice>tatis mee
-		<lb/>et <placeName>L<choice><abbr>ũ</abbr><expan>um</expan></choice>bardi<choice><abbr>ã</abbr><expan>am</expan></choice></placeName> t<choice><abbr rend="exposant">a</abbr><expan>ra</expan></choice>nsiens ad litt<choice><abbr>9</abbr><expan>us</expan></choice> <placeName>Medit<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>ranei maris</placeName>
-		<lb/><choice><abbr>ꝓ</abbr><expan>pro</expan></choice>pe ciuitat<choice><abbr>ẽ</abbr><expan>em</expan></choice> <choice><abbr>q&#x0303;</abbr><expan>que</expan></choice> <placeName>Naul<choice><abbr>ũ</abbr><expan>um</expan></choice></placeName> d<choice><abbr>ĩ</abbr><expan>icitur</expan></choice>
-		in ripis <placeName>Ian<choice><sic>n</sic><corr>u</corr></choice>e</placeName> sit<choice><abbr>ã</abbr><expan>am</expan></choice> <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>spere qↄmũ <choice><abbr>ꝑ</abbr><expan>per</expan></choice>ueni et ubi gale<choice><abbr>ã</abbr><expan>am</expan></choice> 
-		<lb/>b<choice><abbr>ñ</abbr><expan>ene</expan></choice> armat<choice><abbr>ã</abbr><expan>am</expan></choice> et ad <choice><abbr>õ</abbr><expan>omn</expan></choice>ia munit<choice><sic>ã</sic><corr>a</corr></choice> asc<choice><abbr>ẽ</abbr><expan>en</expan></choice>di
-		et ad <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>se<choice><abbr>q&#x0303;</abbr><expan>que</expan></choice>nd<choice><abbr>ũ</abbr><expan>um</expan></choice> iter ultramarinum
-		<lb/>naute remis uelo puppi <choice><abbr>ĩ</abbr><expan>in</expan></choice>sistebant.
-	      </p>
-	      <p>
-		Dicitur aut&#x0303; hoc <placeName>mare Meditↄraneũ</placeName>
-		<lb/>qↄa pↄncipalib<choice><abbr>9</abbr><expan>us</expan></choice> mũdi ꝑtib<choice><abbr>9</abbr><expan>us</expan></choice> uidel<choice><abbr>⁊</abbr><expan>icet</expan></choice> <placeName>Asie</placeName> <placeName>Europe</placeName> et <placeName>Affrice</placeName> intↄiacet ip&#x0303;as se <choice><abbr>⁊</abbr><expan>et</expan></choice>
-		<lb/>suis braciis ab ĩuicem distininans h&#x0303;t enĩ a septẽtrione <choice><abbr>⁊</abbr><expan>et</expan></choice> occidẽte <placeName>Europ<choice><abbr>ã</abbr><expan></expan></choice></placeName>
-		<lb/>ad orientẽ <placeName>Asiam</placeName> et ad austr<choice><abbr>ã</abbr><expan></expan></choice> <placeName>Affric<choice><abbr>ã</abbr><expan></expan></choice></placeName> et uno <gap/> bracio qᵒ attĩgit <placeName>Hispa<lb/>ni<choice><abbr>ã</abbr><expan></expan></choice></placeName>
-		et strictũ qd <gap/> de <placeName>Marroch</placeName> uulgaritↄ uocatↄ cõtinuatↄ hoc <placeName>mare me
-		<lb/>ditↄraneũ</placeName> cũ occeano maiori seu cĩgulo terre scil<choice><abbr>⁊</abbr><expan>icet</expan></choice> maximo qd braciũ s<choice><abbr>ã</abbr><expan></expan></choice>cti
-		<lb/>Georgii dĩ cõtinuatↄ cũ <placeName>mari Põtico</placeName> qd qᵃsi null<choice><abbr>ã</abbr><expan></expan></choice> h&#x0303;t ĩsul<choice><abbr>ã</abbr><expan></expan></choice> ũde <choice><abbr>⁊</abbr><expan>et</expan></choice> mare mai<choice><abbr>9</abbr><expan>us</expan></choice> <gap/>.
-	      </p>
-	      <p>
-		In hoc gᵒ mari <persName>beat<choice><abbr>9</abbr><expan>us</expan></choice> Clemens papa</persName> submↄsus fuit ꝓpe <placeName>Cersonam</placeName>
-		<lb/>et h&#x0303;itaculũ marturii in modũ tẽpli marmorei manib<choice><abbr>9</abbr><expan>us</expan></choice> <choice><abbr>ã</abbr><expan></expan></choice>gelicis cõstructũ est.
-		<lb/><gap/> aliud mare uersus orientẽ ultra ciuitatẽ <placeName>sara</placeName> qũa tenet Tartarius
-		<lb/>de Guinama <choice><abbr>⁊</abbr><expan>et</expan></choice> dĩ mare Caspiũ qd nec occeano nec Meditↄraneo nec Põtico mari
-		<lb/>aliquo apparẽti bracio copulatur. Asserũt t&#x0303;n aliqui qⁱbusd<choice><abbr>ã</abbr><expan></expan></choice> nixi experiẽtis
-		<lb/>q s per subterratũ gurgitẽ Põtico qd sibi ꝓpĩqui<choice><abbr>9</abbr><expan>us</expan></choice> est et ꝑ Ↄns aliis marib9
-		<lb/>cõtinuatↄ.
+		<body>
+			<div type="prologue">
+				
+			</div>
+			<div type="corps-de-texte">
+				<head>
+					De itinere u<choice><abbr>ↄ</abbr><expan>er</expan></choice>sus <placeName>Siriam</placeName> cui<choice><abbr>9</abbr><expan>us</expan></choice> t<choice><abbr>ↄ</abbr><expan>er</expan></choice>ra sancta est pars.
+				</head>
+				<p>
+					<lb/>Egressus ego de <placeName>Alem<choice><abbr>ã</abbr><expan>an</expan></choice>nia</placeName> t<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>ra nat<choice><abbr>ĩ</abbr><expan>iui</expan></choice>tatis mee
+					<lb/>et <placeName>L<choice><abbr>ũ</abbr><expan>um</expan></choice>bardi<choice><abbr>ã</abbr><expan>am</expan></choice></placeName> t<choice><abbr rend="exposant">a</abbr><expan>ra</expan></choice>nsiens ad litt<choice><abbr>9</abbr><expan>us</expan></choice> <placeName>Medit<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>ranei maris</placeName>
+					<lb/><choice><abbr>ꝓ</abbr><expan>pro</expan></choice>pe ciuitat<choice><abbr>ẽ</abbr><expan>em</expan></choice>, <choice><abbr>q&#x0303;</abbr><expan>que</expan></choice> <placeName>Naul<choice><abbr>ũ</abbr><expan>um</expan></choice></placeName> d<choice><abbr>ĩ</abbr><expan>icitur</expan></choice>,
+					in ripis <placeName>Ian<choice><sic>n</sic><corr>u</corr></choice>e</placeName> sit<choice><abbr>ã</abbr><expan>am</expan></choice> <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>spere qↄmũ <choice><abbr>ꝑ</abbr><expan>per</expan></choice>ueni et ubi gale<choice><abbr>ã</abbr><expan>am</expan></choice> 
+					<lb/>b<choice><abbr>ñ</abbr><expan>ene</expan></choice> armat<choice><abbr>ã</abbr><expan>am</expan></choice> et ad <choice><abbr>õ</abbr><expan>omn</expan></choice>ia munit<choice><sic>ã</sic><corr>a</corr></choice> asc<choice><abbr>ẽ</abbr><expan>en</expan></choice>di
+					et ad <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>se<choice><abbr>q&#x0303;</abbr><expan>que</expan></choice>nd<choice><abbr>ũ</abbr><expan>um</expan></choice> iter ultramarinum
+					<lb/>naute remis uelo puppi <choice><abbr>ĩ</abbr><expan>in</expan></choice>sistebant.
+				</p>
+				<p>
+					Dicitur au<choice><abbr>t&#x0303;</abbr><expan>tem</expan></choice> hoc <placeName>mare Medit<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>rane<choice><abbr>ũ</abbr><expan>um</expan></choice></placeName>
+					<lb/>q<choice><abbr rend="suscrit">i</abbr><expan>ui</expan></choice>a p<choice><abbr rend="suscrit">i</abbr><expan>ri</expan></choice>ncipalib<choice><abbr>9</abbr><expan>us</expan></choice> m<choice><abbr>ũ</abbr><expan>un</expan></choice>di <choice><abbr>ꝑ</abbr><expan>par</expan></choice>tib<choice><abbr>9</abbr><expan>us</expan></choice> uidel<choice><abbr>⁊</abbr><expan>icet</expan></choice> <placeName>Asie</placeName> <placeName>Europe</placeName> et <placeName>Affrice</placeName> int<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>iacet i<choice><abbr>p&#x0303;</abbr><expan>ps</expan></choice>as se <choice><abbr>⁊</abbr><expan>et</expan></choice>
+					<lb/>suis braciis ab <choice><abbr>ĩ</abbr><expan>in</expan></choice>uicem distininans <choice><abbr>h&#x0303;</abbr><expan>habe</expan></choice>t en<choice><abbr>ĩ</abbr><expan>im</expan></choice> a sept<choice><abbr>ẽ</abbr><expan>en</expan></choice>trione <choice><abbr>⁊</abbr><expan>et</expan></choice> occid<choice><abbr>ẽ</abbr><expan>en</expan></choice>te <placeName>Europ<choice><abbr>ã</abbr><expan>am</expan></choice></placeName>
+					<lb/>ad orient<choice><abbr>ẽ</abbr><expan>em</expan></choice> <placeName>Asiam</placeName> et ad austr<choice><abbr>ã</abbr><expan>am</expan></choice> <placeName>Affric<choice><abbr>ã</abbr><expan>am</expan></choice></placeName> et uno q<choice><abbr rend="exposant">i</abbr><expan>ui</expan></choice>dem bracio q<choice><abbr rend="exposant">o</abbr><expan>uo</expan></choice> att<choice><abbr>ĩ</abbr><expan>in</expan></choice>git <placeName>Hispa<lb/>ni<choice><abbr>ã</abbr><expan>am</expan></choice></placeName>
+					et strict<choice><abbr>ũ</abbr><expan>um</expan></choice> <choice><abbr>qd&#x0303;</abbr><expan>quod</expan></choice> q<choice><abbr rend="exposant">i</abbr><expan>ui</expan></choice>dem de <placeName>Marroch</placeName> uulgari<choice><abbr>t&#x0303;</abbr><expan>ter</expan></choice> uoca<choice><abbr>t&#x0303;</abbr><expan>tur</expan></choice> c<choice><abbr>õ</abbr><expan>on</expan></choice>tinua<choice><abbr>t&#x0303;</abbr><expan>tur</expan></choice> hoc <placeName>mare Me
+					<lb/>di<choice><abbr>t&#x0303;</abbr><expan>ter</expan></choice>rane<choice><abbr>ũ</abbr><expan>um</expan></choice></placeName> c<choice><abbr>ũ</abbr><expan>um</expan></choice> occeano maiori seu c<choice><abbr>ĩ</abbr><expan>in</expan></choice>gulo terre scil<choice><abbr>⁊</abbr><expan>icet</expan></choice> maximo <choice><abbr>qd&#x0303;</abbr><expan>quod</expan></choice> braci<choice><abbr>ũ</abbr><expan>um</expan></choice> <placeName>s<choice><abbr>ã</abbr><expan>an</expan></choice>cti
+					<lb/>Georgii</placeName> d<choice><abbr>ĩ</abbr><expan>icitur</expan></choice> c<choice><abbr>õ</abbr><expan>on</expan></choice>tinua<choice><abbr>t&#x0303;</abbr><expan>tur</expan></choice> c<choice><abbr>ũ</abbr><expan>um</expan></choice> <placeName>mari P<choice><abbr>õ</abbr><expan>on</expan></choice>tico</placeName> <choice><abbr>qd&#x0303;</abbr><expan>quod</expan></choice> q<choice><abbr rend="suscrit">a</abbr><expan>ua</expan></choice>si null<choice><abbr>ã</abbr><expan>am</expan></choice> <choice><abbr>h&#x0303;</abbr><expan>habe</expan></choice>t <choice><abbr>ĩ</abbr><expan>in</expan></choice>sul<choice><abbr>ã</abbr><expan>m</expan></choice> <choice><abbr>ũ</abbr><expan>un</expan></choice>de <choice><abbr>⁊</abbr><expan>et</expan></choice> mare mai<choice><abbr>9</abbr><expan>us</expan></choice> <gap/>.
+				</p>
+				<p>
+					In hoc <choice><abbr rend="o en exposant">go</abbr><expan>ergo</expan></choice> mari <persName>beat<choice><abbr>9</abbr><expan>us</expan></choice> Clemens papa</persName> sub<choice><abbr>m&#x0303;</abbr><expan>er</expan></choice>sus fuit <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>pe <placeName>Cersonam</placeName>
+					<lb/>et <choice><abbr>h&#x0303;</abbr><expan>hab</expan></choice>itacul<choice><abbr>ũ</abbr><expan>um</expan></choice> marturii in mod<choice><abbr>ũ</abbr><expan>um</expan></choice> t<choice><abbr>ẽ</abbr><expan>em</expan></choice>pli marmorei manib<choice><abbr>9</abbr><expan>us</expan></choice> <choice><abbr>ã</abbr><expan>an</expan></choice>gelicis c<choice><abbr>õ</abbr><expan>on</expan></choice>struct<choice><abbr>ũ</abbr><expan>um</expan></choice> est.
+					<lb/><gap/> aliud mare uersus orient<choice><abbr>ẽ</abbr><expan>em</expan></choice> ultra ciuitat<choice><abbr>ẽ</abbr><expan>em</expan></choice> <placeName>Sara</placeName> qu<choice><abbr>ã</abbr><expan>am</expan></choice> tenet Tartarius
+					<lb/>de Guinama <choice><abbr>⁊</abbr><expan>et</expan></choice> d<choice><abbr>ĩ</abbr><expan>icitur</expan></choice> mare Caspi<choice><abbr>ũ</abbr><expan>um</expan></choice> <choice><abbr>qd&#x0303;</abbr><expan>quod</expan></choice> nec occeano nec Medit<choice><abbr>t&#x0303;</abbr><expan>ter</expan></choice>raneo nec <placeName>P<choice><abbr>õ</abbr><expan>on</expan></choice>tico mari</placeName>
+					<lb/>aliquo apparẽti bracio copulatur. Asserũt t&#x0303;n aliqui qⁱbusd<choice><abbr>ã</abbr><expan></expan></choice> nixi experiẽtis
+					<lb/>q s per subterratũ gurgitẽ Põtico qd sibi ꝓpĩqui<choice><abbr>9</abbr><expan>us</expan></choice> est et ꝑ Ↄns aliis marib9
+					<lb/>cõtinuatↄ.
 				</p>
 				<p>
 					Hoc braciũ s&#x0303;cti Georgii qd dixim<choice><abbr>9</abbr><expan>us</expan></choice> diuidit Europ<choice><abbr>ã</abbr><expan></expan></choice> <choice><abbr>⁊</abbr><expan>et</expan></choice> Asi<choice><abbr>ã</abbr><expan></expan></choice> minorẽ
