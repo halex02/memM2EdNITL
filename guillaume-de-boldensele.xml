@@ -14,65 +14,65 @@
 	      <p>Information about the source</p>
 	      </sourceDesc>
 	  </fileDesc>
-	</teiHeader>	
+	</teiHeader>
 	<text>
 	  <body>
 	    <div type="prologue">
 	      
 	    </div>
-	    <div>
+	    <div type="corps-de-texte">
 	      <head>
-		De itinere uↄsus <placeName>Siriam</placeName> cui9 tↄra sancta est pars.
+		De itinere u<choice><abbr>ↄ</abbr><expan>er</expan></choice>sus <placeName>Siriam</placeName> cui<choice><abbr>9</abbr><expan>us</expan></choice> t<choice><abbr>ↄ</abbr><expan>er</expan></choice>ra sancta est pars.
 	      </head>
 	      <p>
-		<lb/>Egressus ego de <placeName>Alemãnia</placeName> tↄra natĩtatis mee
-		<lb/>et <placeName>Lũbardiã</placeName> t<choice><abbr>ᵃ</abbr><expan>ra</expan></choice>nsiens ad litt9 <placeName>Meditↄranei maris</placeName>
-		<lb/>ꝓpe ciuitatẽ q&#x0303; <placeName>Naulũ</placeName> dĩ
-		in ripis ianne sitã ꝓspere qↄmũ ꝑueni et ubi galeã 
-		<lb/>bñ armatã et ad õia munitã ascẽdi
-		et ad ꝓseq&#x0303;ndũ iter ultramarinum
-		<lb/>naute remis uelo puppi ĩsistebant.
+		<lb/>Egressus ego de <placeName>Alem<choice><abbr>ã</abbr><expan>an</expan></choice>nia</placeName> t<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>ra nat<choice><abbr>ĩ</abbr><expan>iui</expan></choice>tatis mee
+		<lb/>et <placeName>L<choice><abbr>ũ</abbr><expan>um</expan></choice>bardi<choice><abbr>ã</abbr><expan>am</expan></choice></placeName> t<choice><abbr rend="exposant">a</abbr><expan>ra</expan></choice>nsiens ad litt<choice><abbr>9</abbr><expan>us</expan></choice> <placeName>Medit<choice><abbr>&#x0303;</abbr><expan>er</expan></choice>ranei maris</placeName>
+		<lb/><choice><abbr>ꝓ</abbr><expan>pro</expan></choice>pe ciuitat<choice><abbr>ẽ</abbr><expan>em</expan></choice> <choice><abbr>q&#x0303;</abbr><expan>que</expan></choice> <placeName>Naul<choice><abbr>ũ</abbr><expan>um</expan></choice></placeName> d<choice><abbr>ĩ</abbr><expan>icitur</expan></choice>
+		in ripis <placeName>Ian<choice><sic>n</sic><corr>u</corr></choice>e</placeName> sit<choice><abbr>ã</abbr><expan>am</expan></choice> <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>spere qↄmũ <choice><abbr>ꝑ</abbr><expan>per</expan></choice>ueni et ubi gale<choice><abbr>ã</abbr><expan>am</expan></choice> 
+		<lb/>b<choice><abbr>ñ</abbr><expan>ene</expan></choice> armat<choice><abbr>ã</abbr><expan>am</expan></choice> et ad <choice><abbr>õ</abbr><expan>omn</expan></choice>ia munit<choice><sic>ã</sic><corr>a</corr></choice> asc<choice><abbr>ẽ</abbr><expan>en</expan></choice>di
+		et ad <choice><abbr>ꝓ</abbr><expan>pro</expan></choice>se<choice><abbr>q&#x0303;</abbr><expan>que</expan></choice>nd<choice><abbr>ũ</abbr><expan>um</expan></choice> iter ultramarinum
+		<lb/>naute remis uelo puppi <choice><abbr>ĩ</abbr><expan>in</expan></choice>sistebant.
 	      </p>
 	      <p>
 		Dicitur aut&#x0303; hoc <placeName>mare Meditↄraneũ</placeName>
-		<lb/>qↄa pↄncipalib9 mũdi ꝑtib9 uidel<choice><abbr>⁊</abbr><expan>icet</expan></choice> <placeName>Asie</placeName> <placeName>Europe</placeName> et <placeName>Affrice</placeName> intↄiacet ip&#x0303;as se <choice><abbr>⁊</abbr><expan>et</expan></choice>
-		<lb/>suis braciis ab ĩuicem distininans h&#x0303;t enĩ a septẽtrione <choice><abbr>⁊</abbr><expan>et</expan></choice> occidẽte <placeName>Europã</placeName>
-		<lb/>ad orientẽ <placeName>Asiam</placeName> et ad austrã <placeName>Affricã</placeName> et uno <gap/> bracio qᵒ attĩgit <placeName>Hispa<lb/>niã</placeName>
+		<lb/>qↄa pↄncipalib<choice><abbr>9</abbr><expan>us</expan></choice> mũdi ꝑtib<choice><abbr>9</abbr><expan>us</expan></choice> uidel<choice><abbr>⁊</abbr><expan>icet</expan></choice> <placeName>Asie</placeName> <placeName>Europe</placeName> et <placeName>Affrice</placeName> intↄiacet ip&#x0303;as se <choice><abbr>⁊</abbr><expan>et</expan></choice>
+		<lb/>suis braciis ab ĩuicem distininans h&#x0303;t enĩ a septẽtrione <choice><abbr>⁊</abbr><expan>et</expan></choice> occidẽte <placeName>Europ<choice><abbr>ã</abbr><expan></expan></choice></placeName>
+		<lb/>ad orientẽ <placeName>Asiam</placeName> et ad austr<choice><abbr>ã</abbr><expan></expan></choice> <placeName>Affric<choice><abbr>ã</abbr><expan></expan></choice></placeName> et uno <gap/> bracio qᵒ attĩgit <placeName>Hispa<lb/>ni<choice><abbr>ã</abbr><expan></expan></choice></placeName>
 		et strictũ qd <gap/> de <placeName>Marroch</placeName> uulgaritↄ uocatↄ cõtinuatↄ hoc <placeName>mare me
-		<lb/>ditↄraneũ</placeName> cũ occeano maiori seu cĩgulo terre scil<choice><abbr>⁊</abbr><expan>icet</expan></choice> maximo qd braciũ sãcti
-		<lb/>Georgii dĩ cõtinuatↄ cũ <placeName>mari Põtico</placeName> qd qᵃsi nullã h&#x0303;t ĩsulã ũde <choice><abbr>⁊</abbr><expan>et</expan></choice> mare mai9 <gap/>.
+		<lb/>ditↄraneũ</placeName> cũ occeano maiori seu cĩgulo terre scil<choice><abbr>⁊</abbr><expan>icet</expan></choice> maximo qd braciũ s<choice><abbr>ã</abbr><expan></expan></choice>cti
+		<lb/>Georgii dĩ cõtinuatↄ cũ <placeName>mari Põtico</placeName> qd qᵃsi null<choice><abbr>ã</abbr><expan></expan></choice> h&#x0303;t ĩsul<choice><abbr>ã</abbr><expan></expan></choice> ũde <choice><abbr>⁊</abbr><expan>et</expan></choice> mare mai<choice><abbr>9</abbr><expan>us</expan></choice> <gap/>.
 	      </p>
 	      <p>
-		In hoc gᵒ mari <persName>beat9 Clemens papa</persName> submↄsus fuit ꝓpe <placeName>Cersonam</placeName>
-		<lb/>et h&#x0303;itaculũ marturii in modũ tẽpli marmorei manib9 ãgelicis cõstructũ est.
+		In hoc gᵒ mari <persName>beat<choice><abbr>9</abbr><expan>us</expan></choice> Clemens papa</persName> submↄsus fuit ꝓpe <placeName>Cersonam</placeName>
+		<lb/>et h&#x0303;itaculũ marturii in modũ tẽpli marmorei manib<choice><abbr>9</abbr><expan>us</expan></choice> <choice><abbr>ã</abbr><expan></expan></choice>gelicis cõstructũ est.
 		<lb/><gap/> aliud mare uersus orientẽ ultra ciuitatẽ <placeName>sara</placeName> qũa tenet Tartarius
 		<lb/>de Guinama <choice><abbr>⁊</abbr><expan>et</expan></choice> dĩ mare Caspiũ qd nec occeano nec Meditↄraneo nec Põtico mari
-		<lb/>aliquo apparẽti bracio copulatur. Asserũt t&#x0303;n aliqui qⁱbusdã nixi experiẽtis
-		<lb/>q s per subterratũ gurgitẽ Põtico qd sibi ꝓpĩqui9 est et ꝑ Ↄns aliis marib9
+		<lb/>aliquo apparẽti bracio copulatur. Asserũt t&#x0303;n aliqui qⁱbusd<choice><abbr>ã</abbr><expan></expan></choice> nixi experiẽtis
+		<lb/>q s per subterratũ gurgitẽ Põtico qd sibi ꝓpĩqui<choice><abbr>9</abbr><expan>us</expan></choice> est et ꝑ Ↄns aliis marib9
 		<lb/>cõtinuatↄ.
 				</p>
 				<p>
-					Hoc braciũ s&#x0303;cti Georgii qd dixim9 diuidit Europã <choice><abbr>⁊</abbr><expan>et</expan></choice> Asiã minorẽ
-					<lb/>q&#x0303; ꝓfecto ut <gap/> <unclear>sepe</unclear> tãgunt maioris Asie ꝓuincia est. Hoc aut&#x0303; braciũ
+					Hoc braciũ s&#x0303;cti Georgii qd dixim<choice><abbr>9</abbr><expan>us</expan></choice> diuidit Europ<choice><abbr>ã</abbr><expan></expan></choice> <choice><abbr>⁊</abbr><expan>et</expan></choice> Asi<choice><abbr>ã</abbr><expan></expan></choice> minorẽ
+					<lb/>q&#x0303; ꝓfecto ut <gap/> <unclear>sepe</unclear> t<choice><abbr>ã</abbr><expan></expan></choice>gunt maioris Asie ꝓuincia est. Hoc aut&#x0303; braciũ
 					<lb/>uulgaritↄ bucca Cõstantinopolitana dĩ eo q suꝓ ipsũ in littore Europe egre<lb/>gia
 					metropolis Cõstantinopol&#x0303; sita est q&#x0303; et noua Roma dĩ. Hec ciuitas solẽp<lb/>nissima
-					in optimo mũdi loco tã <choice><abbr>rõe</abbr><expan>ratione</expan></choice> aeris maris t&#x2184;re uinorũ bonorŭq <gap/>
+					in optimo mũdi loco t<choice><abbr>ã</abbr><expan></expan></choice> <choice><abbr>rõe</abbr><expan>ratione</expan></choice> aeris maris t&#x2184;re uinorũ bonorŭq <gap/>
 					<lb/>cõfluentia lorat est portũ <gap/> optimũ et maxiᵐ muris ualidissimis
-					<lb/>cĩgitur figura pacens triangulari cui9 duo latera u&#x2184;sus mare sũt et t&#x2184;tiũ
-					<lb/>uersus terrã.
+					<lb/>cĩgitur figura pacens triangulari cui<choice><abbr>9</abbr><expan>us</expan></choice> duo latera u&#x2184;sus mare sũt et t&#x2184;tiũ
+					<lb/>uersus terr<choice><abbr>ã</abbr><expan></expan></choice>.
 				</p>
 				<p>
 				Ĩ hac ciuitate multi sũt ecclesie et fuerũt plures ultra
-				<lb/>modũ pulcre opere musaico marmorib9 et singulari modo cõstructure mi<lb/>rabilis
+				<lb/>modũ pulcre opere musaico marmorib<choice><abbr>9</abbr><expan>us</expan></choice> et singulari modo cõstructure mi<lb/>rabilis
 				plura q sũt palatia p&#x0303;h&#x2184;rima ĩ eadem tenet t&#x0303;n pⁱncipatum
-				<lb/>ĩ ip&#x0303;a ciuitate eccl&#x0303;a s&#x0303;cte Sophie <gap/> sapiẽtie q&#x2184; xp&#x0303;s est quã Iustinian9 im<lb/>perator
-				sanctissim9 fũdauit et mirabl&#x0303;r fĩgularib9 p&#x2184;rogatiuis ⁊ p&#x2184;coniis
+				<lb/>ĩ ip&#x0303;a ciuitate eccl&#x0303;a s&#x0303;cte Sophie <gap/> sapiẽtie q&#x2184; xp&#x0303;s est qu<choice><abbr>ã</abbr><expan></expan></choice> Iustinian<choice><abbr>9</abbr><expan>us</expan></choice> im<lb/>perator
+				sanctissim<choice><abbr>9</abbr><expan>us</expan></choice> fũdauit et mirabl&#x0303;r fĩgularib<choice><abbr>9</abbr><expan>us</expan></choice> p&#x2184;rogatiuis ⁊ p&#x2184;coniis
 				<lb/>decorauit <gap/> aut&#x0303; q sub celo a cõdito orbe non fuit tale edificiũ
-				<lb/>cõpletũ in nobilitate uidelic⁊ et magnitudine cet&#x2184;is parib9 <gap/> parandum.
+				<lb/>cõpletũ in nobilitate uidelic⁊ et magnitudine cet&#x2184;is parib<choice><abbr>9</abbr><expan>us</expan></choice> <gap/> parandum.
 				<pb xml:id="f237r" n="2" facs="img1"/><lb/>In ista gᵒ p&#x2184;tiosissima eccl&#x0303;a est ymago im&#xA751;atoris Iustiniani eques ⁊ de ere fusa
 				<lb/>im&#xA751;iali eminens dignitate corona deaurata maxĩe qᵃntitatis ĩsignita in
-				<lb/>manu sinistra pomũ qd orbẽ rep&#x0303;entat cruce su&#xA751;posita tenens dextrã q cõtra
-				<lb/>orientẽ leuans ad modũ pⁱncips minas rebellib9 apponẽtis statua su&#xA751; quã
+				<lb/>manu sinistra pomũ qd orbẽ rep&#x0303;entat cruce su&#xA751;posita tenens dextr<choice><abbr>ã</abbr><expan></expan></choice> q cõtra
+				<lb/>orientẽ leuans ad modũ pⁱncips minas rebellib<choice><abbr>9</abbr><expan>us</expan></choice> apponẽtis statua su&#xA751; qu<choice><abbr>ã</abbr><expan></expan></choice>
 				<lb/>ymago posita est altissima existit ex petris magnis et cernento fortissimo
 				<lb/>glutinata.
 				</p>
