@@ -105,4 +105,9 @@
 	<xsl:value-of select="@xml:id"/>
 	<xsl:text>]</xsl:text>
 	</xsl:template>
+	
+	<xsl:template match="del"/>
+	<xsl:template match="gap">
+	<xsl:text>GAP</xsl:text>
+	</xsl:template>
 </xsl:stylesheet>
