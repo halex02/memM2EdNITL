@@ -1,0 +1,136 @@
+<!DOCTYPE TEI [
+
+<!ELEMENT TEI (teiHeader, text)>
+	<!ELEMENT teiHeader (fileDesc, encodingDesc, profileDesc)>
+		<!ATTLIST teiHeader xml:lang PCDATA #REQUIRED>
+		<!--
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%% THE FILE DESCRIPTION %%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		-->
+		<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+		
+			<!--
+			===========================
+			=== THE TITLE STATEMENT ===
+			===========================
+			-->
+			<!ELEMENT titleStmt (title, author, principal, respStmt+)>
+				<!ELEMENT title (#PCDATA)>
+					<!ATTLIST title xml:lang PCDATA #IMPLIED>
+					<!ATTLIST title type PCDATA #IMPLIED>
+					<!ATTLIST title level PCDATA #IMPLIED>
+				<!ELEMENT author (persName+)>
+				<!ELEMENT principal (persName)>
+				<!ELEMENT respStmt (resp, persName+)>
+					<!ELEMENT resp (#PCDATA)>
+					<!--
+					*******************
+					*** PERSON NAME ***
+					*******************
+					-->
+					<!ELEMENT persName (surename, forename)>
+						<!ATTLIST persName corresp #PCDATA #IMPLIED> <!-- @corresp pour lier des notices d’autorité -->
+						<!ELEMENT surename (#PCDATA)> <!-- nom de famille -->
+						<!ELEMENT forename (#PCDATA)> <!-- prénom -->
+	
+			<!--
+			=================================
+			=== THE PUBLICATION STATEMENT ===
+			=================================
+			-->
+			<!ELEMENT publicationStmt (authority, pubPlace, date, availability)>
+				<!ELEMENT authority (persName)>
+				<!ELEMENT pubPlace (placeName)>
+					<!--
+					******************
+					*** PlACE NAME ***
+					******************
+					-->
+					<!ELEMENT placeName (settlement, region)>
+						<!ELEMENT settlement (#PCDATA)> <!-- ville -->
+						<!ELEMENT region (#PCDATA)> <!-- pays -->
+				<!ELEMENT date (#PCDATA)>
+					<!ATTLIST date when #IMPLIED>
+				<!ELEMENT availability (p | licence)*>
+					<!ATTLIST availability status PCDATA #IMPLIED>
+					<!ELEMENT licence (p*)>
+						<!ATTLIST licence target PCDATA #IMPLIED>
+						<!ELEMENT p (#PCDATA)>
+	
+			<!--
+			==============================
+			=== THE SOURCE DESCRIPTION ===
+			==============================
+			-->
+			<!ELEMENT sourceDesc (bibl, msIdentifier*)>
+				<!ELEMENT bibl ((author* | editor*), title*, bibl?, pubPlace?, publisher?, date?, biblScope*)>
+					<!ATTLIST bibl type PCDATA #REQUIRED>
+					<!ELEMENT editor (persName*)>
+					<!ELEMENT pubPlace (placeName)>
+					<!ELEMENT publisher (#PCDATA)>
+					<!ELEMENT biblScope (#PCDATA)>
+						<!ATTLIST biblScope unit PCDATA #REQUIRED>
+						<!ATTLIST biblScope from PCDATA #IMPLIED>
+						<!ATTLIST biblScope to PCDATA #IMPLIED>
+				<!ELEMENT msDesc (msIdentifier, msContents, physDesc)>
+					<!ELEMENT msIdentifier (placeName, repository, idno+, msName?, altIdentifier*)>
+						<!ELEMENT repository (#PCDATA)> <!-- nom de la bibliothèque/archive -->
+						<!ELEMENT idno (#PCDATA)> <!-- côte du manuscrit -->
+							<!ATTLIST idno corresp PCDATA #REQUIRED>
+						<!ELEMENT msName (#PCDATA)>
+						<!ELEMENT altIdentifier*(placeName?, repository?, idno)>
+					<!ELEMENT msContents (msItemStruct+)>
+						<!ELEMENT msItemStruct (locus, author*, title*, rubric?, incipit, explicit, finalRubric, colophon?, decoNote*, listBibl?, textLang?)>
+							<!ATTLIST msItemStruct n PCDATA #REQUIRED>
+							<!ATTLIST msItemStruct defective PCDATA "true">
+							<!ATTLIST msItemStruct class IDREF #IMPLIED>
+							<!ELEMENT locus (#PCDATA)> <!-- indications des folios dans le codex -->
+								<!ATTLIST locus from PCDATA #REQUIRED>
+								<!ATTLIST locus to PCDATA #REQUIRED>
+							<!ELEMENT rubric (#PCDATA)> <!--rubric me semble peu pertinent ici, 
+															de même que finalRubric, colophon et 
+															surtout decoNote, (l’incipit et l’explicit 
+															sont amplement suffisant pour identifier des passages)
+															mais je les ai tout de même inclus dans la dtd vu que je vais 
+															vraisemblablement réemployer ce msDesc ailleurs-->
+								<!ATTLIST rubric xml:lang PCDATA #IMPLIED>
+								<!ATTLIST rubric defective PCDATA "false">
+								<!ATTLIST rubric type PCDATA #IMPLIED>
+							<!ELEMENT incipit (#PCDATA)>
+								<!ATTLIST incipit xml:lang PCDATA #IMPLIED>
+								<!ATTLIST incipit defective PCDATA "false">
+								<!ATTLIST incipit type PCDATA #IMPLIED>
+							<!ELEMENT explicit (#PCDATA)>
+								<!ATTLIST incipit xml:lang PCDATA #IMPLIED>
+								<!ATTLIST incipit defective PCDATA "false">
+								<!ATTLIST incipit type PCDATA #IMPLIED>
+							<!ELEMENT finalRubric (#PCDATA)>
+								<!ATTLIST finalRubric xml:lang PCDATA #IMPLIED>
+								<!ATTLIST finalRubric defective PCDATA "false">
+								<!ATTLIST finalRubric type PCDATA #IMPLIED>
+							<!ELEMENT decoNote (p)> 
+								<!ATTLIST decoNote xml:lang PCDATA #IMPLIED>
+								<!ATTLIST decoNote type PCDATA #IMPLIED>
+							<!ELEMENT colophon (#PCDATA)>
+								<!ATTLIST colophon xml:lang PCDATA #IMPLIED>
+								<!ATTLIST colophon defective PCDATA "false">
+							<!ELEMENT textLang (#PCDATA)>
+								<!ATTLIST textLang xml:lang PCDATA #IMPLIED>
+								<!ATTLIST textLang mainLang PCDATA #REQUIRED>
+								<!ATTLIST textLang otherlangs PCDATA #IMPLIED>
+					<!ELEMENT physDesc (objectDesc, handDesc, scriptDesc, decoDesc, bindingDesc)>
+						<!ELEMENT objectDesc (supportDesc, layoutDesc)>
+							<!ATTLIST objectDesc form PCDATA #REQUIRED>
+							<!ELEMENT supportDesc ()>
+							<!ELEMENT layoutDesc ()>
+							
+							
+							
+		<!--
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%% THE PROFILE DESCRIPTION %%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		-->
+		
+]>
