@@ -1,6 +1,4 @@
 /facs/Wo/
-tei_all.rnc
-tei_all.xsd
 *.aux
 *.log
 latex/memoire.synctex.gz
